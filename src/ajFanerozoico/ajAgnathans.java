@@ -1,4 +1,6 @@
-package ajProterozoico;
+package ajFanerozoico;
+
+import ajProterozoico.ajGnathostomata;
 
 public abstract class ajAgnathans extends ajGnathostomata {
     public ajAgnathans(){

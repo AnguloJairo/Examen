@@ -9,13 +9,19 @@ public class ajApp {
         ajLoading.ajMostrarSpinner();
         Hagfishes hagfishes = new Hagfishes();
         ajHagfishes tortuga = new ajHagfishes("Anguila");
-        System.out.println(tortuga.ecgetNombre() + " es una hagfishe");
-        System.out.println(tortuga.ecSaludar());
-        System.out.println(tortuga.ecSaludarCompaneros());
+        System.out.println(tortuga.ajgetNombre() + " es una hagfishe");
+        System.out.println(tortuga.ajSaludar());
+        System.out.println(tortuga.ajSaludarCompaneros());
 
         // Crear una instancia de TurtleMutada y mutarla
-        ajHagfishesMutada tortugaMutada = new ajHagfishesMutada("Jario Mutado");
-        ajTanqueMutacion.mutar(tortugaMutada);
+
+        ajHagfishesMutada animal = new ajHagfishesMutada("Anguila-Angulo"); // Crear instancia del animal mutado
+        ajBiologoRuso biologo = new ajBiologoRuso();
+
+        biologo.ejecutarProcesoMutacion(animal);
+
+        //ajHagfishesMutada tortugaMutada = new ajHagfishesMutada("Jario Mutado");
+        //ajTanqueMutacion.mutar(tortugaMutada, clave);
     }
 }
 

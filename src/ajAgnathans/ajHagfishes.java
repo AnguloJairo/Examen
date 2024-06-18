@@ -8,21 +8,21 @@ public class ajHagfishes {
         this.nombre = nombre;
     }
 
-    public String ecgetNombre() {
+    public String ajgetNombre() {
         return nombre;
         
     }
 
-    public void ecsetNombre(String nombre) {
+    public void ajsetNombre(String nombre) {
         this.nombre = nombre;
 
     }
 
-    public String ecSaludar() {
+    public String ajSaludar() {
         return nombre + " saluda.";
     }
 
-    public String ecSaludarCompaneros() {
+    public String ajSaludarCompaneros() {
         return nombre + " saluda a sus compañeros.";
     }
 }
